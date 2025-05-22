@@ -1,0 +1,20 @@
+[project]
+name = "researchagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bcrypt>=4.3.0",
+    "fastapi>=0.115.12",
+    "langchain-google-genai>=2.1.4",
+    "langgraph>=0.4.5",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2>=2.9.10",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.0",
+    "python-jose[cryptography]>=3.4.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.41",
+    "streamlit>=1.45.1",
+]
